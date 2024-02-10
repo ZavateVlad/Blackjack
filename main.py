@@ -19,7 +19,7 @@ def show_cards(show):
     print(f"Dealer's final hand: {dealer}, final score: {sum(dealer)}")
 
 
-def compare(player1,player2):
+def compare(player1, player2):
   if 1 in player1 or 1 in player2:
     if sum(player1) < 21:
       player1.remove(11)
